@@ -1,0 +1,13 @@
+  .sidebar {
+    position: absolute;
+    top: 99px;
+    left: -100vw;
+    height: calc(100vh - 99px);
+    width: 300px;
+    transition: left 0.3s ease-in-out;
+    background-color: #254568;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }

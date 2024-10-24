@@ -1,0 +1,22 @@
+.sidebar-item {
+    height:12.5vh;
+    border-bottom:1px solid DimGrey;
+    color:  DimGrey;
+    transition: 0.3s;
+    background-color: #0D1824;
+  }
+  .sidebar-item.ripple {
+    background-position: center;
+    transition: background 0.8s;
+ }
+ .sidebar-item.ripple:hover {
+    background: #0D1824 radial-gradient(circle, transparent 1%, #0D1824 1%) 50%/16000%;
+    color:  #236EE1;
+ }
+ .sidebar-item.ripple:active {
+    background-color: #254568;
+    background-size: 100%;
+    transition: background 0s, transform 0.2s;
+    transform: translateY(1px);
+ }
+  
